@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myradio="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.shenni.lives.activity.ChooseSexActivity">
+
+    <View
+        android:id="@+id/v_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/p20">
+
+
+        <ImageView
+            android:id="@+id/iv_choose_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/p10"
+            android:background="@drawable/icon_ok" />
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/p10"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="选择" />
+
+        <ImageView
+            android:id="@+id/iv_choose_clean"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_closes" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/rg_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/p1"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/p30"
+        android:paddingTop="@dimen/p30">
+
+        <com.shenni.lives.widget.MyRadioButton
+            android:id="@+id/rb_girl"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:clickable="true"
+            android:drawablePadding="@dimen/p10"
+            android:gravity="center"
+            android:text="女"
+            android:textColor="@drawable/radio_txt_selector"
+            android:textSize="@dimen/p25"
+            myradio:drawableSize="@dimen/p170"
+            myradio:drawableTop="@drawable/radio_girl" />
+
+        <com.shenni.lives.widget.MyRadioButton
+            android:id="@+id/rb_boy"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:clickable="true"
+            android:drawablePadding="@dimen/p10"
+            android:gravity="center"
+            android:text="男"
+            android:textColor="@drawable/radio_txt_selector"
+            android:textSize="@dimen/p25"
+            myradio:drawableSize="@dimen/p170"
+            myradio:drawableTop="@drawable/radio_boy" />
+    </RadioGroup>
+
+
+</LinearLayout>

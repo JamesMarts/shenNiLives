@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 填充的颜色 -->
+    <solid android:color="@color/live_bg" />
+    <!-- android:radius 弧形的半径 -->
+    <corners android:radius="40dp" />
+    <!--<size-->
+        <!--android:width="80dp"-->
+        <!--android:height="80dp" />-->
+     <!--<stroke-->
+    <!--android:width="2dp"-->
+    <!--android:color="@color/colorAccent" />-->
+</shape>

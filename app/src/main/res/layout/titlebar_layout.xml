@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toolbar_main"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/p84"
+    android:layout_alignParentTop="true"
+    android:background="@color/colorAccent"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/rl_left"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical|left"
+        android:layout_weight="1.2"
+        android:paddingLeft="12dp">
+
+        <ImageView
+            android:id="@+id/iv_left"
+            android:layout_width="@dimen/p50"
+            android:layout_height="@dimen/p50"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_back"
+            tools:ignore="ContentDescription" />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/ed_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:singleLine="true"
+        android:layout_weight="3"
+        android:background="@drawable/shap_grey3"
+        android:imeOptions="actionSearch"
+        android:padding="@dimen/p10"
+        android:gravity="center"
+        android:hint="@string/search_hint"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="16sp" />
+
+    <RelativeLayout
+        android:id="@+id/rl_search_right"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical|right"
+        android:layout_weight="1.2"
+        android:paddingRight="12dp">
+
+
+        <ImageView
+            android:id="@+id/iv_right"
+            android:layout_width="@dimen/p50"
+            android:layout_height="@dimen/p50"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="right"
+            android:layout_margin="5dp"
+            android:background="@drawable/icon_search"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+</LinearLayout>

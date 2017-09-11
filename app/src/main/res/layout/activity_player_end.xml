@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/icon_play_end"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.shenni.lives.activity.PlayerEndActivity">
+
+    <!--android:background="@drawable/icon_live_star"-->
+    <LinearLayout
+        android:id="@+id/ll_end_top"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/p2"
+            android:layout_marginLeft="@dimen/p150"
+            android:layout_marginRight="@dimen/p150"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_end_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/p80"
+            android:gravity="center"
+            android:text="@string/live_end_tips"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/p2"
+            android:layout_marginLeft="@dimen/p150"
+            android:layout_marginRight="@dimen/p150"
+            android:background="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_end_center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/ll_end_top"
+        android:visibility="invisible"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_chat_end_time"
+            style="@style/font_white16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="2小时30分钟" />
+
+        <TextView
+            style="@style/font_grey14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/p20"
+            android:text="直播时长" />
+
+        <TextView
+            android:id="@+id/tv_chat_end_renshu"
+            style="@style/font_white16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="4194" />
+
+        <TextView
+            style="@style/font_grey14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/p20"
+            android:text="观看人数" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/ll_end_center"
+        android:layout_marginLeft="@dimen/p100"
+        android:layout_marginRight="@dimen/p100"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_chat_end_focus"
+            style="@style/font_white14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_selector_de2"
+            android:text="@string/live_op_go"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_chat_end_close"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/p20"
+            android:background="@drawable/btn_selector_de2"
+            android:text="@string/live_end_close"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp" />
+
+
+        <Button
+            android:id="@+id/tv_end_daojishi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/p20"
+            android:background="@drawable/btn_selector_de2"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp"
+            tools:text="15秒后退出房间" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">陌秀直播</string>
+    <string name="login_wechat">微信登录</string>
+    <string name="login_QQ">QQ登录</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="live_gold">陌币</string><!--修改金币字段还要修改第三方库中的字段！！！-->
+    <string name="live_gold2">陌币:</string><!--修改金币字段还要修改第三方库中的字段！！！-->
+
+    <string name="live_lianxi_kefu">遇到问题?联系客服</string>
+
+    <string name="live_gold_add">陌币充值</string>
+    <string name="gold_Pay1">500陌币=49元</string>
+    <string name="gold_Pay2">1000陌币=100元</string>
+    <string name="gold_Pay3">2000陌币=200元</string>
+    <string name="gold_Pay4">5000陌币=500元</string>
+    <string name="gold_Pay1_m">500陌币</string>
+    <string name="gold_Pay1_y">49元</string>
+    <string name="gold_Pay2_m">1000陌币</string>
+    <string name="gold_Pay2_y">100元</string>
+    <string name="gold_Pay3_m">2000陌币</string>
+    <string name="gold_Pay3_y">200元</string>
+    <string name="gold_Pay4_m">5000陌币</string>
+    <string name="gold_Pay4_y">500元</string>
+    <string name="tab1">关注</string>
+    <string name="tab2">热门</string>
+    <!--<string name="tab3">同城</string>-->
+    <string name="tab3">最新</string>
+    <string name="search_hint">输入关键字</string>
+    <string name="live_sibo">私播</string>
+    <string name="live_zousi">走私</string>
+
+    <string name="live_level0">屌丝</string>
+    <string name="live_pay_level1">帅锅</string>
+    <string name="live_level1">帅锅</string>
+    <string name="live_pay_level2">土豪</string>
+    <string name="live_level2">土豪</string>
+    <string name="live_op_go">偷偷看看</string>
+    <string name="live_op_op">点亮房间</string>
+
+    <string name="live_pay_month">元/每月</string>
+    <string name="live_pay1_month">49元/每月</string>
+    <string name="live_pay1_tips">无黑屏进入直播房间</string>
+    <string name="live_pay2_month">98元/每月</string>
+    <string name="live_pay2_tips">无限制进入直播和大秀房间</string>
+    <!--<string name="live_pay2_tips">无限制进入直播和飙车房间</string>-->
+    <string name="live_pay3_tips">与心仪主播一对一激情互动</string>
+    <string name="live_pay3">49元/场</string>
+    <string name="live_pay4">400元/次</string>
+    <string name="anchor_qq">复制QQ号成功</string>
+    <string name="anchor_weixin">复制微信号成功</string>
+    <string name="live_end_tips">主播已开启\n走私模式\n正在一对一私播中</string>
+    <string name="live_end_tips1">主播已开启私密模式\n仅帅锅与土豪可见</string>
+    <string name="live_end_tips2">私播已结束</string>
+    <string name="live_end_close">退出房间</string>
+    <string name="live_chat_share">该房间禁止分享</string>
+    <string name="live_chat_tips">余额不足请充值</string>
+    <string name="pay_success">支付成功</string>
+    <string name="chat_th_tips">该主播设置仅土豪可见</string>
+    <string name="chat_th_tips_s">私信</string>
+
+    <string name="home_index1">首页</string>
+    <string name="home_index3">我的</string>
+    <string name="entry_join">上传</string>
+    <string name="app_tip">提示</string>
+    <string name="pay_result_callback_msg" formatted="false">微信支付结果：%s</string>
+    <string name="wx_pay_callback_msg">暂不支持，请用支付宝</string>
+    <string name="pay_null_tips">请用另一个支付</string>
+
+</resources>

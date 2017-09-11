@@ -1,0 +1,198 @@
+apply plugin: 'com.android.application'
+apply plugin: 'android-apt'
+
+def releaseTime() {
+    return new Date().format("yyyy-MM-dd", TimeZone.getTimeZone("UTC"))
+}
+
+
+android {
+//    compileSdkVersion 25
+//    buildToolsVersion "25.0.2"
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+
+    signingConfigs {
+//        developKey {
+//            keyAlias 'de_key'
+//            keyPassword DEV_KEYSTORE_PWD
+//            storeFile file('de_key.jks')
+//            storePassword DEV_KEYSTORE_PWD
+//        }
+        ysdevelopKey {
+            keyAlias 'mx_key'
+            keyPassword YS_DEV_KEYSTORE_PWD
+            storeFile file('../mx_key.keystore')
+            storePassword YS_DEV_KEYSTORE_PWD
+        }
+
+    }
+
+    aaptOptions {
+        cruncherEnabled = false
+        useNewCruncher = false
+    }
+    defaultConfig {
+        applicationId "com.shenni.mxlive"
+//        minSdkVersion 17
+//        targetSdkVersion 25
+//        versionCode 1
+//        versionName "1.0"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName
+//        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        buildConfigField("String", "APP_CHANNEL_ID", '"APP"')
+        ndk {
+            // 设置支持的SO库架构
+            abiFilters 'armeabi' //, 'x86', 'armeabi-v7a', 'x86_64', 'arm64-v8a'
+        }
+    }
+
+    productFlavors{
+//        渠道包    ID_APP为主包 渠道包为： ID_渠道号
+        ID_APP{
+            buildConfigField("String", "APP_CHANNEL_ID", '"APP"')
+        }
+        ID_10003 {
+            buildConfigField("String", "APP_CHANNEL_ID", '"10003"')
+        }
+        ID_10004 {
+            buildConfigField("String", "APP_CHANNEL_ID", '"10004"')
+        }
+        ID_10005 {
+            buildConfigField("String", "APP_CHANNEL_ID", '"10005"')
+        }
+        ID_10006 {
+            buildConfigField("String", "APP_CHANNEL_ID", '"10006"')
+        }
+        ID_10007 {
+            buildConfigField("String", "APP_CHANNEL_ID", '"10007"')
+        }
+        ID_10008 {
+            buildConfigField("String", "APP_CHANNEL_ID", '"10008"')
+        }
+    }
+
+    android.applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            def outputFile = output.outputFile
+            if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                //这里修改apk文件名
+                def fileName = "${releaseTime() }-Android_陌秀直播_${variant.productFlavors[0].name}_版本号-${defaultConfig.versionCode}_版本名-${defaultConfig.versionName}_${variant.buildType.name}.apk"
+                output.outputFile = new File(outputFile.parent, fileName)
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            debuggable false
+            minifyEnabled false
+            jniDebuggable false
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+//            signingConfig signingConfigs.developKey
+            signingConfig signingConfigs.ysdevelopKey
+            pseudoLocalesEnabled true
+        }
+        debug {
+            minifyEnabled false
+            signingConfig signingConfigs.ysdevelopKey
+//            signingConfig signingConfigs.developKey
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+}
+//repositories {
+//    flatDir {
+//        dirs 'libs'   // aar目录
+//    }
+//}
+
+android {
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+    }
+}
+
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile project(':jjdxm-ijkplayer')
+    compile project(':giftlibrary')
+    //    compile rootProject.ext.jjdxm_v7
+
+    //    compile 'tv.danmaku.ijk.media:ijkplayer-armv7a:0.7.9'
+
+    //    compile 'tv.danmaku.ijk.media:ijkplayer-armv5:0.7.9'
+
+    //    compile 'tv.danmaku.ijk.media:ijkplayer-x86:0.7.9'
+
+    //对应ijkplayer的  compile 'tv.danmaku.ijk.media:ijkplayer-armv7a:0.6.0'
+
+    //对应ijkplayer的  compile 'tv.danmaku.ijk.media:ijkplayer-armv5:0.6.0'
+
+    //对应ijkplayer的  compile 'tv.danmaku.ijk.media:ijkplayer-arm64:0.6.0'
+
+    //对应ijkplayer的  compile 'tv.danmaku.ijk.media:ijkplayer-x86:0.6.0'
+
+    //对应ijkplayer的  compile 'tv.danmaku.ijk.media:ijkplayer-x86_64:0.6.0'
+
+    //其中latest.release指代最新Bugly SDK版本号，也可以指定明确的版本号，例如2.1.9
+
+    //其中latest.release指代最新Bugly NDK版本号，也可以指定明确的版本号，例如3.0
+    compile files('libs/alipaySdk-20170407.jar')
+    compile files('libs/SocialSDK_QQ_Simplify.jar')
+    compile files('libs/SocialSDK_Sina_Simplify.jar')
+    compile files('libs/SocialSDK_WeChat_Simplify.jar')
+    compile files('libs/umeng_social_api.jar')
+    compile files('libs/umeng_social_net.jar')
+    compile files('libs/umeng_social_shareboard.jar')
+    compile files('libs/umeng_social_shareview.jar')
+    compile files('libs/umeng_social_tool.jar')
+    compile files('libs/BaiduLBS_Android.jar')
+    compile 'de.hdodenhof:circleimageview:2.1.0'
+    compile 'com.dou361.ijkplayer-armv7a:jjdxm-ijkplayer-armv7a:1.0.0'
+    compile 'com.dou361.ijkplayer-armv5:jjdxm-ijkplayer-armv5:1.0.0'
+    compile 'com.dou361.ijkplayer-arm64:jjdxm-ijkplayer-arm64:1.0.0'
+    compile 'com.dou361.ijkplayer-x86:jjdxm-ijkplayer-x86:1.0.0'
+    compile 'com.dou361.ijkplayer-x86_64:jjdxm-ijkplayer-x86_64:1.0.0'
+    compile 'com.jakewharton:butterknife:6.1.0'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.youth.banner:banner:1.4.9'
+    compile 'com.zhy:autolayout:1.4.5'
+    compile 'com.lzy.net:okgo:2.1.4'
+    compile 'com.lzy.net:okserver:1.1.3'
+    compile 'com.squareup.retrofit2:retrofit:2.0.0-beta4'
+    compile 'com.squareup.retrofit2:converter-scalars:2.0.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.0.0-beta4'
+    compile 'com.alibaba:fastjson:1.2.14'
+    compile 'com.google.code.gson:gson:2.8.0'
+    compile 'com.lovedise:permissiongen:0.0.6'
+    compile 'com.yanzhenjie:permission:1.0.8'
+    compile 'com.android.support:support-v4:25.3.1'
+    compile 'com.lcodecorex:tkrefreshlayout:1.0.7'
+    compile 'com.tencent.bugly:crashreport:latest.release'
+    compile 'com.tencent.bugly:nativecrashreport:latest.release'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    testCompile 'junit:junit:4.12'
+//    compile(name:'jubaosdk-shell-release-v44', ext:'aar')
+
+    compile(name: 'jubaosdk-shell-release-v4.4', ext: 'aar')
+//    compile files('libs/FanweiPlugin_v4.4.jar')
+    compile 'com.github.yaming116:UpdateApp:1.0.2'
+    compile 'com.tencent.mm.opensdk:wechat-sdk-android-without-mta:1.3.4'
+
+}

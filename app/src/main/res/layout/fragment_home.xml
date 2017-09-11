@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.shenni.lives.fragment.HomeFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/p28"
+        android:paddingRight="@dimen/p28">
+
+        <ImageView
+            android:id="@+id/iv_search"
+            android:layout_width="@dimen/p44"
+            android:layout_height="@dimen/p44"
+            android:background="@drawable/icon_search" />
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tab_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/p28"
+            android:layout_marginRight="@dimen/p28"
+            android:layout_weight="1"
+            app:tabIndicatorColor="@color/white"
+            app:tabIndicatorHeight="1dp"
+            app:tabMode="fixed"
+            app:tabSelectedTextColor="@null"
+            app:tabTextAppearance="@style/TabLayoutTextStyle"
+            app:tabTextColor="@color/white" />
+
+
+        <ImageView
+            android:id="@+id/iv_home_message"
+            android:layout_width="@dimen/p44"
+            android:layout_height="@dimen/p44"
+            android:visibility="gone"
+            android:background="@drawable/icon_message" />
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

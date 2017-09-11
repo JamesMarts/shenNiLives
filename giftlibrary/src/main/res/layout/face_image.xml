@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_gift_root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/face_img"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:scaleType="fitXY" />
+
+    <ImageView
+        android:id="@+id/face_img2"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="6dp"
+        android:layout_toRightOf="@+id/face_img"
+        android:scaleType="centerCrop"
+        android:src="@drawable/icon_check_de2" />
+
+    <TextView
+        android:id="@+id/face_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/face_img"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        tools:text="喜欢呢" />
+
+    <TextView
+        android:id="@+id/face_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/face_name"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/grey"
+        tools:text="10金币" />
+
+</RelativeLayout>

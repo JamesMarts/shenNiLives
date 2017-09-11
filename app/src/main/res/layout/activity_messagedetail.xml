@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.shenni.lives.activity.MessagedetailActivity">
+
+
+    <include
+        android:id="@+id/tab_titles"
+        layout="@layout/title_bar" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/tab_titles"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/p10">
+
+            <TextView
+                android:id="@+id/tv_msgd_title"
+                style="@style/font_dark16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/p10"
+                android:textStyle="bold"
+                tools:text="标题" />
+
+
+            <TextView
+                android:id="@+id/tv_msgd_time"
+                style="@style/font_grey12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/tv_msgd_content_pic"
+                android:layout_marginTop="@dimen/p10"
+                tools:text="时间" />
+
+
+            <TextView
+                android:id="@+id/tv_msgd_content"
+                style="@style/font_dark14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_msgd_title"
+                android:layout_marginTop="@dimen/p20"
+                android:lineSpacingExtra="3dp"
+                android:lineSpacingMultiplier="1.2"
+                tools:text="正文" />
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/tv_msgd_content_pic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layoutManager="android.support.v7.widget.GridLayoutManager"
+                app:spanCount="2" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

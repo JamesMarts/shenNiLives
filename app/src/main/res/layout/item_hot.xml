@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/p4"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/p110"
+        android:layout_marginTop="@dimen/p14"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/p20"
+        android:paddingRight="@dimen/p20">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_follow_head"
+            android:layout_width="@dimen/p70"
+            android:layout_height="@dimen/p70"
+            android:layout_gravity="center_vertical"
+            android:scaleType="centerCrop"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/p20"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_follow_name"
+                style="@style/font_dark16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_centerVertical="true"
+                tools:text="再回首惘然若梦" />
+            <!--android:layout_marginTop="@dimen/p14"-->
+
+            <TextView
+                android:id="@+id/tv_follow_gold"
+                style="@style/font_grey12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_follow_name"
+                android:textSize="14sp"
+                android:visibility="gone"
+                tools:text="ID:" />
+
+            <TextView
+                android:id="@+id/tv_follow_golds"
+                style="@style/font_grey12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/tv_follow_gold"
+                android:layout_marginLeft="@dimen/p2"
+                android:layout_toRightOf="@+id/tv_follow_gold"
+                android:visibility="gone"
+                tools:text="123123132" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/p30"
+                android:layout_toLeftOf="@+id/tv_nums"
+                android:drawableLeft="@drawable/icon_people2"
+                android:drawablePadding="@dimen/p6"
+                android:visibility="gone" />
+
+
+            <TextView
+                android:id="@+id/tv_nums"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                tools:text="100" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/p10">
+
+        <ImageView
+            android:id="@+id/photo"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/p780"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/iv_follow_type"
+            android:layout_width="@dimen/p120"
+            android:layout_height="@dimen/p120"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/p20"
+            android:layout_marginTop="@dimen/p10"
+            android:scaleType="centerCrop" />
+        <!--android:layout_width="@dimen/p100"-->
+        <!--android:layout_height="@dimen/p34"-->
+    </RelativeLayout>
+</LinearLayout>

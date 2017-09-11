@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myradio="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.shenni.lives.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_statutitle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/p45"
+        android:background="@color/colorPrimaryDark"
+        android:visibility="visible" />
+
+    <FrameLayout
+        android:id="@+id/fl_body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rg_bottom"
+        android:layout_below="@+id/tv_statutitle" />
+
+
+    <com.shenni.lives.widget.KeyRadioGroupV1
+        android:id="@+id/rg_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/p110"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/icon_background"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <com.shenni.lives.widget.MyRadioButton
+                    android:id="@+id/rb_home"
+                    android:layout_width="@dimen/p150"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/p20"
+                    android:button="@null"
+                    android:checked="true"
+                    android:clickable="true"
+                    android:textSize="12sp"
+                    android:gravity="center"
+                    android:text="@string/home_index1"
+                    android:textColor="@drawable/radio_home_txt_selector"
+                    myradio:drawableSize="25dp"
+                    myradio:drawableTop="@drawable/radio_home" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <com.shenni.lives.widget.MyRadioButton
+                    android:id="@+id/rb_minne"
+                    android:layout_width="@dimen/p150"
+                    android:layout_height="wrap_content"
+                    android:textColor="@drawable/radio_home_txt_selector"
+                    android:text="@string/home_index3"
+                    android:layout_marginLeft="@dimen/p20"
+                    android:textSize="12sp"
+                    android:button="@null"
+                    android:clickable="true"
+                    android:gravity="center"
+                    myradio:drawableTop="@drawable/radio_mine"
+                    myradio:drawableSize="25dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </com.shenni.lives.widget.KeyRadioGroupV1>
+
+    <Button
+        android:id="@+id/btn_entry"
+        android:layout_width="@dimen/p130"
+        android:layout_height="@dimen/p130"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/p16"
+        android:background="@drawable/radio_entry" />
+</RelativeLayout>

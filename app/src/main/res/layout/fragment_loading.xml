@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/pop_shap_white_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="25dp">
+
+
+    <!-- 正在加载 -->
+
+    <ProgressBar
+        android:id="@+id/loading_bar"
+        android:layout_width="28dip"
+        android:layout_height="28dip" />
+
+    <LinearLayout
+        android:layout_width="@dimen/p400"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/p50">
+
+
+        <TextView
+            android:id="@+id/loading_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dialog_black"
+            android:textSize="15sp"
+            tools:text="正在加载···" />
+
+        <com.shenni.lives.widget.NumberProgressBar
+            android:id="@+id/pbProgress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:progress_reached_bar_height="1.5dp"
+            app:progress_reached_color="#3498DB"
+            app:progress_text_color="#3498DB"
+            app:progress_text_size="10sp"
+            app:progress_unreached_bar_height="0.75dp"
+            app:progress_unreached_color="#CCCCCC" />
+    </LinearLayout>
+
+</LinearLayout>

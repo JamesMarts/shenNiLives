@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:id="@+id/tvnick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/p5"
+        android:includeFontPadding="false"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:visibility="gone"
+        tools:text="nihao" />
+
+    <TextView
+        android:id="@+id/tvcontent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/p5"
+        android:layout_toLeftOf="@+id/iv_title_left"
+        android:background="@drawable/chat_sixin_bg"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:paddingBottom="@dimen/p10"
+        android:paddingLeft="@dimen/p10"
+        android:paddingRight="@dimen/p25"
+        android:paddingTop="@dimen/p10"
+        android:textColor="@color/chat_content"
+        android:textSize="14sp"
+        tools:text="聊天内容" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_title_left"
+        android:layout_width="@dimen/p70"
+        android:layout_height="@dimen/p70"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="@dimen/p10"
+        android:layout_marginTop="@dimen/p10"
+        android:scaleType="centerCrop" />
+</RelativeLayout>

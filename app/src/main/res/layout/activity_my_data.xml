@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.shenni.lives.activity.MyDataActivity">
+
+
+    <include
+        android:id="@+id/tab_titles"
+        layout="@layout/title_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="@dimen/p20">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_data_head"
+            android:layout_width="@dimen/p160"
+            android:layout_height="@dimen/p160"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/test_icon_head" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="@dimen/p28"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_data_name"
+                style="@style/font_dark16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="再回首惘然若梦" />
+
+            <TextView
+                android:id="@+id/tv_data_gold"
+                style="@style/font_grey12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_data_name"
+                android:textSize="14sp"
+                android:text="ID:" />
+
+            <TextView
+                android:id="@+id/tv_data_golds"
+                style="@style/font_grey12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tv_data_gold"
+                android:layout_marginLeft="@dimen/p2"
+                android:layout_toRightOf="@+id/tv_data_gold"
+                tools:text="123123132" />
+
+            <ImageView
+                android:id="@+id/my_iv_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/tv_data_name"
+                android:layout_marginLeft="@dimen/p30"
+                android:layout_toRightOf="@+id/tv_data_name"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_mick"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/p100"
+        android:layout_marginTop="@dimen/p13"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/iv_mynick"
+            android:layout_width="@dimen/p50"
+            android:layout_height="@dimen/p50"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/p30"
+            android:layout_marginRight="@dimen/p40"
+            android:background="@drawable/icon_nick_choose" />
+
+        <TextView
+            style="@style/font_grey12"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_toRightOf="@+id/iv_mynick"
+            android:gravity="center_vertical"
+            android:text="昵称" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/p40"
+            android:background="@drawable/icon_back_right2" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_sex"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/p100"
+        android:layout_marginTop="@dimen/p3"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/iv_sex"
+            android:layout_width="@dimen/p50"
+            android:layout_height="@dimen/p50"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/p30"
+            android:layout_marginRight="@dimen/p40"
+            android:background="@drawable/icon_sex_choose" />
+
+        <TextView
+            style="@style/font_grey12"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_toRightOf="@+id/iv_sex"
+            android:gravity="center_vertical"
+            android:text="性别" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/p40"
+            android:background="@drawable/icon_back_right2" />
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.shenni.lives.activity.AnchorMoneyActivity">
+
+    <include
+        android:id="@+id/tab_titles"
+        layout="@layout/title_bar" />
+
+    <LinearLayout
+        android:id="@+id/ll_an_m"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/p98"
+        android:layout_below="@+id/tab_titles"
+        android:layout_margin="@dimen/p25"
+        android:background="@drawable/shap_stroke_pink"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/p25"
+        android:paddingRight="@dimen/p25">
+
+        <TextView
+            style="@style/font_grey12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="金额:" />
+
+        <EditText
+            style="@style/font_dark12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/p20"
+            android:background="@null"
+            android:gravity="center_vertical"
+            tools:text="0" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/an_m_cl"
+        android:layout_width="@dimen/p480"
+        android:layout_height="@dimen/p88"
+        android:layout_below="@+id/ll_an_m"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/p56"
+        android:background="@drawable/icon_withdraw" />
+
+    <TextView
+        android:id="@+id/tv_an_m_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="12sp"
+        android:visibility="gone"
+        tools:text="sdfsfd" />
+</RelativeLayout>

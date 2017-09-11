@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#ff468a</color>-->
+    <!--<color name="colorPrimaryDark">#FF4081</color>-->
+    <!--<color name="colorAccent">#ff498c</color>-->
+    <color name="colorPrimary">#1fcebf</color>
+    <color name="colorPrimaryDark">#62d7be</color>
+    <color name="colorAccent">#62d7be</color>
+
+    <color name="cl_default">#424242</color>
+    <color name="cl_error">#ffffff</color>
+    <color name="app_colors">#fcfafb</color>
+    <color name="white">#ffffff</color>
+    <color name="tab_white">#fbd5e0</color>
+    <color name="live_bg">#eeeeee</color>
+    <color name="list_bg">#a3a3a3</color>
+    <color name="font_grey">#676767</color>
+    <color name="font_dark">#333333</color>
+    <color name="font_orange">#ea7a14</color>
+    <color name="font_selected">#535353</color>
+    <color name="font_no_selected">#a9a9a9</color>
+    <color name="dialog_black">#000000</color>
+    <color name="chat_content">#ffec73</color>
+    <color name="chat_si_a">#1fcebf</color>
+    <color name="text_se">#6affe1</color>
+    <color name="text_se_d">#62d7be</color>
+    <!--相机-->
+    <color name="line">#e1e1e1</color>
+    <color name="blue">#248dfe</color>
+
+    <!--<color name="level_1">#3cd1b3</color>-->
+    <color name="level_2">#ffeb70</color>
+    <color name="level_3">#ff4f7c</color>
+
+    <color name="level_1">#34b09a</color>
+    <!--<color name="level_2">#ddcd64</color>-->
+    <!--<color name="level_3">#df4e75</color>-->
+
+
+    <color name="navpage">#FFE1E8EB</color>
+
+</resources>

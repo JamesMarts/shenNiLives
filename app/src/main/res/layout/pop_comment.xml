@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--聊天框模块-->
+    <LinearLayout
+        android:id="@+id/llinputparent"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/white"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/mrb_chat_danmu"
+                android:layout_width="@dimen/p100"
+                android:layout_height="@dimen/p50"
+                android:background="@drawable/check_danmu_select"
+                android:button="@null"
+                android:checked="false" />
+
+            <EditText
+                android:id="@+id/etInput"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/p10"
+                android:layout_marginLeft="@dimen/p10"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:hint="和大家说点什么"
+                android:maxLength="30"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:textColor="#888889"
+                android:textColorHint="#c8c8c8"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/sendInput"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@android:color/holo_blue_bright"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="发送"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

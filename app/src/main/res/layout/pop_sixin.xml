@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/p20"
+        android:paddingRight="@dimen/p20">
+
+
+        <TextView
+            android:id="@+id/caht_sixin_nick"
+            style="@style/font_grey12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/chat_si_a"
+            tools:text="主播昵称" />
+
+
+        <ImageView
+            android:id="@+id/caht_sixin_close"
+            android:layout_width="@dimen/p100"
+            android:layout_height="@dimen/p100"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:padding="@dimen/p30"
+            android:src="@drawable/close_tips" />
+
+    </RelativeLayout>
+
+    <!--聊天消息-->
+    <ListView
+        android:id="@+id/caht_sixin_lvmessage"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_above="@+id/layout_bottom"
+        android:background="#f5fbfb"
+        android:cacheColorHint="#00000000"
+        android:divider="@null"
+        android:paddingTop="@dimen/p8"
+        android:dividerHeight="5dp"
+        android:listSelector="#00000000"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="none"
+        android:transcriptMode="normal" />
+
+
+    <!--聊天框模块-->
+    <LinearLayout
+        android:id="@+id/llinputparent"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#f3f4f4"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:layout_width="@dimen/p100"
+                android:layout_height="@dimen/p50"
+                android:background="@drawable/check_danmu_select"
+                android:button="@null"
+                android:checked="false"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/caht_sixin_etInput"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/p10"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:hint="请输入想对主播说的内容"
+                android:maxLength="30"
+                android:paddingBottom="10dp"
+                android:paddingLeft="@dimen/p10"
+                android:paddingTop="10dp"
+                android:textColor="#888889"
+                android:textColorHint="#c8c8c8"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/caht_sixin_sendInput"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@android:color/holo_blue_bright"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="发送"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

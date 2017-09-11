@@ -1,0 +1,50 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.3'
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        maven { url "https://www.jitpack.io" }
+        jcenter()
+    }
+}
+
+ext {
+    compileSdkVersion = 25
+    buildToolsVersion = "25.0.2"
+
+    targetSdkVersion = 23
+    //主程序版本
+    minSdkVersion = 15
+//    1版本 继承SJB 8 版本
+//    2版本 修改列表加载时出现上提出错 修改支付宝支付链接的请求头出现别的字段的错误如：100HTTPS  添加微信支付(需要打开外部链接)
+//    3版本 修改我的账户中等级充值金额设置 修改刷新方式
+//    4版本 修改消息列表刷新问题
+//    5版本 修改支付方式
+//    6版本 添加渠道
+
+    versionCode = 6
+    versionName = "1.0.6"
+    //library版本
+    jjdxm_minSdkVersion = 9
+    jjdxm_versionCode = 1
+    jjdxm_versionName = "1.0.0"
+    jjdxm_v4 = 'com.android.support:support-v4:23.3.0'
+    jjdxm_v7 = 'com.android.support:appcompat-v7:25.3.1'
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+

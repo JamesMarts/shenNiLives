@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\lijuwen\.android\build-cache\5ee30c67ab6b040f9775a083a035d7572f58850b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cb698597bf429f71793a87217f63a28cf7de0916">
+        <dex dex="H:\Live\code\shenNiLives\app\build\intermediates\transforms\dex\ID_10003\debug\folders\1000\10\classes_288dff59f2100aca6d23209f49a6aebdccbd45d3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lijuwen\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="H:\Live\code\shenNiLives\app\build\intermediates\transforms\dex\ID_10003\debug\folders\1000\10\glide-3.7.0_9b359b56f030efe25d2efea6cfa9ad20560ab027\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lijuwen\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.1\c7c4f9e35c2fd5900da24f9872e3971801f08ce0\okhttp-3.4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="H:\Live\code\shenNiLives\app\build\intermediates\transforms\dex\ID_10003\debug\folders\1000\10\okhttp-3.4.1_43f266bbd7a167c7630c48af6393ea4a515bc144\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lijuwen\.android\build-cache\2a11a88061e97384980dd61a10bb460a69adcc20\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9b69b69f0f434b79d767329fcf1ca6ba1540c509">
+        <dex dex="H:\Live\code\shenNiLives\app\build\intermediates\transforms\dex\ID_10003\debug\folders\1000\10\classes_c713f23c3d0c53108d6438e9cd9bbc9430208af8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lijuwen\.android\build-cache\418137611d07c890f0e1072ab2e70d358676418e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c58fe4c0ec7febdd67aed5cad9aed22c0e15d18f">
+        <dex dex="H:\Live\code\shenNiLives\app\build\intermediates\transforms\dex\ID_10003\debug\folders\1000\10\classes_0bf166d777f2d3155ac53ef0b171697b240ca80a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lijuwen\.android\build-cache\88f50a06f10b5f6f6bb28e617452033837b31981\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9747f466b463d8ff854f2f4a3f5c27f24b9f6751">
+        <dex dex="H:\Live\code\shenNiLives\app\build\intermediates\transforms\dex\ID_10003\debug\folders\1000\10\classes_c0b4c8061e1ad324a5f319cbd6dc50b81f1e9e5b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\Live\code\shenNiLives\app\libs\umeng_social_net.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1aa11c64ffb61549c2314a2eaf109eb26d34cd7b">
+        <dex dex="H:\Live\code\shenNiLives\app\build\intermediates\transforms\dex\ID_10003\debug\folders\1000\2\umeng_social_net_c31bef7674882c0e95f8ec615f779d2e3b28ba6f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\Live\code\shenNiLives\app\libs\umeng_social_api.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f2da3c1332d13d3e29069e2144dec29ef0608f1f">
+        <dex dex="H:\Live\code\shenNiLives\app\build\intermediates\transforms\dex\ID_10003\debug\folders\1000\2\umeng_social_api_adf762975c0324ec02cfac00bfbf1e0315f9ad2b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lijuwen\.android\build-cache\894d49daeed82d766c7a75d00f0e7ad7855d9ac4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="H:\Live\code\shenNiLives\app\build\intermediates\transforms\dex\ID_10003\debug\folders\1000\10\classes_0c060e2d47a71bf73d674093106664912262fbcf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lijuwen\.android\build-cache\40d6655e7bd2e2048ed6beb19286642185c5548d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="634ccf52c8b58a9eafd4a574b38d165e8648a574">
+        <dex dex="H:\Live\code\shenNiLives\app\build\intermediates\transforms\dex\ID_10003\debug\folders\1000\10\classes_5bd7e8e0a85e085e7cce8c801f52e07a760ecdcb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lijuwen\.android\build-cache\61350606105fb19b0659189969b5cbfefa967ad4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a13789ec9e884e49740bb970550fabcb340466c1">
+        <dex dex="H:\Live\code\shenNiLives\app\build\intermediates\transforms\dex\ID_10003\debug\folders\1000\10\classes_6bf63b3097cc8b58796f9ba308af6bc0318f8fc1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lijuwen\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="H:\Live\code\shenNiLives\app\build\intermediates\transforms\dex\ID_10003\debug\folders\1000\10\gson-2.8.0_113d779e459bd8f60285bac4b85b26d5eb7fa54b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\Live\code\shenNiLives\app\libs\umeng_social_tool.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1b54d64ceb6e0e720f54f48178d9f797c2133ebc">
+        <dex dex="H:\Live\code\shenNiLives\app\build\intermediates\transforms\dex\ID_10003\debug\folders\1000\2\umeng_social_tool_f0c6f9ee6e0306cd8d10fb5498fd66be2542b28a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lijuwen\.android\build-cache\366bdd8d1c48aecefcf3e26b55d9d582d8ea87af\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="21257e8fb439affef2a89c23ddfda45869ac0c31">
+        <dex dex="H:\Live\code\shenNiLives\app\build\intermediates\transforms\dex\ID_10003\debug\folders\1000\10\classes_41d209ccab15367a91e83e42eee4153171e93f62\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\Live\code\shenNiLives\app\libs\umeng_social_shareview.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4fe119e1f116394b75f1fca2e0f76709a66900ea">
+        <dex dex="H:\Live\code\shenNiLives\app\build\intermediates\transforms\dex\ID_10003\debug\folders\1000\2\umeng_social_shareview_b997b94ee48bf73f70a2fc1582a01e7a22ea172f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lijuwen\.android\build-cache\218b1433f5c1324a496a94735a9a5e590f7a2f89\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c75007d82461aecc56df64e675148a883096c790">
+        <dex dex="H:\Live\code\shenNiLives\app\build\intermediates\transforms\dex\ID_10003\debug\folders\1000\10\classes_e2feb83dc025256b5b3b939b272bdf5d40749e7e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lijuwen\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-scalars\2.0.0\b0a1e7a46e0366fc062a76d8ad7c6bb0bf68c28f\converter-scalars-2.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b0a1e7a46e0366fc062a76d8ad7c6bb0bf68c28f">
+        <dex dex="H:\Live\code\shenNiLives\app\build\intermediates\transforms\dex\ID_10003\debug\folders\1000\10\converter-scalars-2.0.0_6248603fdfbb07a131174bd0b59c43775bd38002\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\Live\code\shenNiLives\app\libs\SocialSDK_Sina_Simplify.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5866e1a5ca7a49ac28ee0bd9430346a137375b1c">
+        <dex dex="H:\Live\code\shenNiLives\app\build\intermediates\transforms\dex\ID_10003\debug\folders\1000\2\SocialSDK_Sina_Simplify_3adeaeb5d97502f859ca5c15191ef1281c846658\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lijuwen\.gradle\caches\modules-2\files-2.1\com.tencent.mm.opensdk\wechat-sdk-android-without-mta\1.3.4\a7bebff567a2b8801f4f8c79438bae1e95d052ab\wechat-sdk-android-without-mta-1.3.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a7bebff567a2b8801f4f8c79438bae1e95d052ab">
+        <dex dex="H:\Live\code\shenNiLives\app\build\intermediates\transforms\dex\ID_10003\debug\folders\1000\10\wechat-sdk-android-without-mta-1.3.4_ac5ac403565d51fe7b27748116d0cae1f0daef02\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lijuwen\.android\build-cache\691365fe763cab0cd19286a52cf6d46ed0b65953\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="H:\Live\code\shenNiLives\app\build\intermediates\transforms\dex\ID_10003\debug\folders\1000\10\classes_42be7f3490b2b530e45bfcac58cbf5007f827b6b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lijuwen\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.0.0-beta4\de5935a367ba5e343e9df786ac8fc0c7d52b5f0c\converter-gson-2.0.0-beta4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="de5935a367ba5e343e9df786ac8fc0c7d52b5f0c">
+        <dex dex="H:\Live\code\shenNiLives\app\build\intermediates\transforms\dex\ID_10003\debug\folders\1000\10\converter-gson-2.0.0-beta4_273ae54ebcb751774e8b58b790141ea814398ef0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lijuwen\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="H:\Live\code\shenNiLives\app\build\intermediates\transforms\dex\ID_10003\debug\folders\1000\10\picasso-2.5.2_0a5d2a3f5f0de11c426f5f966cfd51d20c27cd2c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lijuwen\.android\build-cache\3b2c0e5fdc8fa00b0b3b7a5d682a3c743a91ff53\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1c32ab2e2421b179912b718196eee2277ba1c7c9">
+        <dex dex="H:\Live\code\shenNiLives\app\build\intermediates\transforms\dex\ID_10003\debug\folders\1000\10\classes_a818c1fb2948a2699ab384dcf6b92b3e66b4a333\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lijuwen\.android\build-cache\981cccf5208af9e569d22502a599dacf23ad4fba\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b0ae57757c2e50caa862eddbe8c2ae8f96b7289e">
+        <dex dex="H:\Live\code\shenNiLives\app\build\intermediates\transforms\dex\ID_10003\debug\folders\1000\10\classes_4749fa46ff571470f7cdbe597e6c32ab4091e492\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lijuwen\AppData\Local\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="H:\Live\code\shenNiLives\app\build\intermediates\transforms\dex\ID_10003\debug\folders\1000\10\constraint-layout-solver-1.0.2_3943ff3fb404ec1df651cbec1aaef9c5c54ca1d8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\Live\code\shenNiLives\app\libs\SocialSDK_WeChat_Simplify.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7d158ad96c9a17df4e5457a5e714bb4664ee4588">
+        <dex dex="H:\Live\code\shenNiLives\app\build\intermediates\transforms\dex\ID_10003\debug\folders\1000\2\SocialSDK_WeChat_Simplify_f5b3ace7bc17379e64b525ebc310b83f2f177f5a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\Live\code\shenNiLives\app\libs\alipaySdk-20170407.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="169061e1504daac8ab0e238e3f84e7e06b12f9d8">
+        <dex dex="H:\Live\code\shenNiLives\app\build\intermediates\transforms\dex\ID_10003\debug\folders\1000\2\alipaySdk-20170407_3ab1e1e3f557239eb0c8c3f4e090bd5658e0d935\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lijuwen\.gradle\caches\modules-2\files-2.1\com.alibaba\fastjson\1.2.14\ebe0a01b96fd0151e9efabcf1b10b3cf37b02a4a\fastjson-1.2.14.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ebe0a01b96fd0151e9efabcf1b10b3cf37b02a4a">
+        <dex dex="H:\Live\code\shenNiLives\app\build\intermediates\transforms\dex\ID_10003\debug\folders\1000\10\fastjson-1.2.14_fbb3a7c923ac8235e618e348a68089845880b659\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lijuwen\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="H:\Live\code\shenNiLives\app\build\intermediates\transforms\dex\ID_10003\debug\folders\1000\10\okio-1.9.0_43e39ab1d00210e61171446d403040b9ce935bb9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\Live\code\shenNiLives\app\build\intermediates\incremental-runtime-classes\ID_10003\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="H:\Live\code\shenNiLives\app\build\intermediates\transforms\dex\ID_10003\debug\folders\1000\10000\instant-run_323373a76e6bfb88c21842ca39d002df8b457b5e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\Live\code\shenNiLives\app\build\intermediates\incremental-classes\ID_10003\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e61990043e40a8c43c99306e70c043c679bd9419">
+        <dex dex="H:\Live\code\shenNiLives\app\build\intermediates\transforms\dex\ID_10003\debug\folders\1000\10000\instant-run-bootstrap_accb7b6949994417f69662c8b542409b8793602c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lijuwen\.android\build-cache\945b14e03bfa987d01796a4f0caf79673e00e15e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="284e4a41a5b9f1b8c97b16b685af7b99724bca2d">
+        <dex dex="H:\Live\code\shenNiLives\app\build\intermediates\transforms\dex\ID_10003\debug\folders\1000\10\classes_5beb1a8e96c490b443253fa7496a10b72388872c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lijuwen\.gradle\caches\modules-2\files-2.1\org.greenrobot\eventbus\3.0.0\ddd99896e9569eaababbe81b35d80e1b91c4ad85\eventbus-3.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="H:\Live\code\shenNiLives\app\build\intermediates\transforms\dex\ID_10003\debug\folders\1000\10\eventbus-3.0.0_44243da5ac73e160648950ed99e026b6db403852\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\Live\code\shenNiLives\app\libs\BaiduLBS_Android.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="282dd5f438a4bf5b03ecb10d52f56f259cc73349">
+        <dex dex="H:\Live\code\shenNiLives\app\build\intermediates\transforms\dex\ID_10003\debug\folders\1000\2\BaiduLBS_Android_69d672844f44e7cce247b8f3f41456200721de7e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lijuwen\.android\build-cache\70eaeaddc5caf6d372c4bf49571a10dc387b657d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee5c87419e00b1e6ffe0474ca65804fd32410ee3">
+        <dex dex="H:\Live\code\shenNiLives\app\build\intermediates\transforms\dex\ID_10003\debug\folders\1000\10\classes_330071950851020edd3dc6fdf2febf9984bdc8ef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lijuwen\.android\build-cache\ffb02d4646ff48a632ce17048ffb14ec34aafccd\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d3a2ed7c02adc7ac46d4107f841c0b800064709f">
+        <dex dex="H:\Live\code\shenNiLives\app\build\intermediates\transforms\dex\ID_10003\debug\folders\1000\10\classes_56dd8f1d98addfd6a5e93e02e4c7252cea281c69\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lijuwen\.android\build-cache\afa29a745ae26197b738ded2e06011fc5ee48242\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ccf7ca40cefd9589343ccc59bba68923ed9b0ad6">
+        <dex dex="H:\Live\code\shenNiLives\app\build\intermediates\transforms\dex\ID_10003\debug\folders\1000\10\classes_d2de5e8f541b89d01e742b681f74be8f649a3c2f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lijuwen\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\6.1.0\63735f48b82bcd24cdd33821342428252eb1ca5a\butterknife-6.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
+        <dex dex="H:\Live\code\shenNiLives\app\build\intermediates\transforms\dex\ID_10003\debug\folders\1000\10\butterknife-6.1.0_3c1ebab86c4ccfc9a9e3e32b4b0218e3598f973d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lijuwen\.android\build-cache\1bd25403d5c263e83f9d3b7691e2276f9d1686c9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="379d026596d204cf421ba7b918e8195a659089ce">
+        <dex dex="H:\Live\code\shenNiLives\app\build\intermediates\transforms\dex\ID_10003\debug\folders\1000\10\classes_9e0500f1e302edbe760a9ee3b22d9df63d147c84\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lijuwen\.android\build-cache\744438598da7b1dba5a8a8446c15fe82b7bab5e3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4d3c38c54d7ff347d6179425dc866af9bd92aab1">
+        <dex dex="H:\Live\code\shenNiLives\app\build\intermediates\transforms\dex\ID_10003\debug\folders\1000\10\classes_9c8b3956ace122792343851e404fd12ad6f8cbe3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\Live\code\shenNiLives\app\libs\SocialSDK_QQ_Simplify.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a1b354761c9ace1c2824a9006ac76b57dce4f204">
+        <dex dex="H:\Live\code\shenNiLives\app\build\intermediates\transforms\dex\ID_10003\debug\folders\1000\2\SocialSDK_QQ_Simplify_1c1f9f9bb3e2032523946f2f48af1fbb386353f5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lijuwen\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.0.0\5c06d197fb7fa875ad452f562e3310dd9949d066\retrofit-2.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5c06d197fb7fa875ad452f562e3310dd9949d066">
+        <dex dex="H:\Live\code\shenNiLives\app\build\intermediates\transforms\dex\ID_10003\debug\folders\1000\10\retrofit-2.0.0_6ab9b978ea1e39a8119b124d13c943f6764787f2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\Live\code\shenNiLives\app\libs\umeng_social_shareboard.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c127e89b7c59c26574dbd2e6e1b52d62fbcc6705">
+        <dex dex="H:\Live\code\shenNiLives\app\build\intermediates\transforms\dex\ID_10003\debug\folders\1000\2\umeng_social_shareboard_348709304d18ace2a46d6f090771daf0a8e45994\classes.dex" />
+    </item>
+
+</items>

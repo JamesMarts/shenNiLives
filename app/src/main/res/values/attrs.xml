@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- 边框的粗度 -->
+    <attr name="borderStrokeWidth" format="float" />
+    <!-- 边框颜色 -->
+    <attr name="borderColor" format="color" />
+    <!-- 底边边线左边断开距离 -->
+    <attr name="borderBottomLeftBreakSize" format="dimension" />
+    <!-- 底边边线右边断开距离 -->
+    <attr name="borderBottomRightBreakSize" format="dimension" />
+    <!-- 是否需要上边框 -->
+    <attr name="needTopBorder" format="boolean" />
+    <!-- 是否需要左右边框 -->
+    <attr name="needLeftAndRigtBorder" format="boolean" />
+    <!-- 是否需要下边框 -->
+    <attr name="needBottomBorder" format="boolean" />
+
+    <declare-styleable name="BorderRelativeLayout">
+        <attr name="borderStrokeWidth" />
+        <attr name="borderColor" />
+        <attr name="borderBottomLeftBreakSize" />
+        <attr name="borderBottomRightBreakSize" />
+        <attr name="needTopBorder" />
+        <attr name="needLeftAndRigtBorder" />
+        <attr name="needBottomBorder" />
+    </declare-styleable>
+    <declare-styleable name="RippleButton">
+        <attr name="iconPadding" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="AnimateCheckBox">
+        <attr name="unCheckColor" format="color" />
+        <attr name="checkedColor" format="color" />
+        <attr name="lineColor" format="color" />
+        <attr name="lineWidth" format="dimension" />
+        <attr name="animDuration" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="ShadowLayout">
+        <attr name="sl_cornerRadius" format="dimension" />
+        <attr name="sl_shadowRadius" format="dimension" />
+        <attr name="sl_shadowColor" format="color" />
+        <attr name="sl_dx" format="dimension" />
+        <attr name="sl_dy" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="pstsIndicatorColor" format="color" />
+        <attr name="pstsUnderlineColor" format="color" />
+        <attr name="pstsDividerColor" format="color" />
+        <attr name="pstsIndicatorHeight" format="dimension" />
+        <attr name="pstsUnderlineHeight" format="dimension" />
+        <attr name="pstsDividerPadding" format="dimension" />
+        <attr name="pstsTabPaddingLeftRight" format="dimension" />
+        <attr name="pstsScrollOffset" format="dimension" />
+        <attr name="pstsTabBackground" format="reference" />
+        <attr name="pstsShouldExpand" format="boolean" />
+        <attr name="pstsTextAllCaps" format="boolean" />
+    </declare-styleable>
+
+</resources>

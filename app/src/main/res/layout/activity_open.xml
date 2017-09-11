@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.shenni.lives.activity.TipsActivity">
+
+    <View
+        android:id="@+id/op_close1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/p30"
+        android:layout_marginRight="@dimen/p30">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shap_white"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/iv_op_close"
+                    android:layout_width="@dimen/p40"
+                    android:layout_height="@dimen/p40"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="@dimen/p16"
+                    android:background="@drawable/iclon_close_op" />
+            </RelativeLayout>
+
+            <com.youth.banner.Banner
+                android:id="@+id/banner_op_heand"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/p340"
+                android:layout_marginLeft="@dimen/p4"
+                android:layout_marginRight="@dimen/p4" />
+
+            <LinearLayout
+                android:id="@+id/re_op_level12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shap_pink_gradient"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/p30">
+
+                <!--//侯爵-->
+
+                <RelativeLayout
+                    android:id="@+id/rl_op_hj"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/p70"
+                    android:paddingLeft="@dimen/p20"
+                    android:paddingRight="@dimen/p20">
+
+                    <ImageView
+                        android:id="@+id/iv_acc1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/icon_cabochon" />
+
+                    <TextView
+                        android:id="@+id/tv_marquess"
+                        style="@style/font_orange24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_toEndOf="@+id/iv_acc1"
+                        android:layout_toRightOf="@+id/iv_acc1"
+                        android:text="@string/live_level1" />
+
+                    <TextView
+                        android:id="@+id/tv_acc_price"
+                        style="@style/font_dark16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/tv_marquess"
+                        android:layout_marginBottom="@dimen/p4"
+                        android:layout_marginLeft="@dimen/p20"
+                        android:layout_toRightOf="@+id/tv_marquess"
+                        android:text="活动价:" />
+
+                    <TextView
+                        android:id="@+id/tv_open_dfh"
+                        style="@style/font_dark16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/tv_acc_price"
+                        android:layout_marginLeft="@dimen/p17"
+                        android:layout_toRightOf="@+id/tv_acc_price"
+                        android:text="@string/live_pay1_month" />
+
+                    <TextView
+                        style="@style/font_dark16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/tv_marquess"
+                        android:layout_below="@+id/tv_marquess"
+                        android:layout_marginTop="@dimen/p20"
+                        android:text="@string/live_pay1_tips" />
+
+                    <ImageView
+                        android:id="@+id/iv_open_level1"
+                        android:layout_width="@dimen/p100"
+                        android:layout_height="@dimen/p60"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/icon_dredge" />
+                </RelativeLayout>
+                <!--//国王-->
+
+                <RelativeLayout
+                    android:id="@+id/rl_op_th"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/p38"
+                    android:paddingLeft="@dimen/p20"
+                    android:paddingRight="@dimen/p20">
+
+                    <ImageView
+                        android:id="@+id/iv_acc2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/icon_king" />
+
+                    <TextView
+                        android:id="@+id/tv_king"
+                        style="@style/font_orange24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginStart="7dp"
+                        android:layout_toEndOf="@+id/iv_acc2"
+                        android:layout_toRightOf="@+id/iv_acc2"
+                        android:text="@string/live_level2" />
+
+                    <TextView
+                        android:id="@+id/tv_king_price"
+                        style="@style/font_dark16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/tv_king"
+                        android:layout_marginBottom="@dimen/p4"
+                        android:layout_marginLeft="@dimen/p20"
+                        android:layout_marginStart="7dp"
+                        android:layout_toRightOf="@+id/tv_king"
+                        android:text="活动价:" />
+
+                    <TextView
+                        android:id="@+id/tv_open_gw"
+                        style="@style/font_dark16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/tv_king_price"
+                        android:layout_marginLeft="@dimen/p17"
+                        android:layout_toRightOf="@+id/tv_king_price"
+                        android:text="@string/live_pay2_month" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        style="@style/font_dark16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/tv_king"
+                        android:layout_below="@+id/tv_king"
+                        android:layout_marginTop="@dimen/p20"
+                        android:text="@string/live_pay2_tips" />
+
+
+                    <ImageView
+                        android:id="@+id/iv_open_level2"
+                        android:layout_width="@dimen/p100"
+                        android:layout_height="@dimen/p60"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/icon_dredge" />
+                </RelativeLayout>
+                <!--//私播-->
+
+                <RelativeLayout
+                    android:id="@+id/rl_op_sibo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/p38"
+                    android:paddingLeft="@dimen/p20"
+                    android:paddingRight="@dimen/p20"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/iv_acc3"
+                        android:layout_width="@dimen/p120"
+                        android:layout_height="@dimen/p120"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/icon_sibo_x" />
+
+                    <TextView
+                        android:id="@+id/tv_king3"
+                        style="@style/font_orange24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginStart="7dp"
+                        android:layout_toEndOf="@+id/iv_acc3"
+                        android:layout_toRightOf="@+id/iv_acc3"
+                        android:text="@string/live_sibo" />
+
+                    <TextView
+                        android:id="@+id/tv_king_price3"
+                        style="@style/font_dark16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/tv_king3"
+                        android:layout_marginBottom="@dimen/p4"
+                        android:layout_marginLeft="@dimen/p20"
+                        android:layout_marginStart="7dp"
+                        android:layout_toRightOf="@+id/tv_king3"
+                        android:text="活动价:" />
+
+                    <TextView
+                        android:id="@+id/tv_open_gw3"
+                        style="@style/font_dark16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/tv_king_price3"
+                        android:layout_marginLeft="@dimen/p17"
+                        android:layout_toRightOf="@+id/tv_king_price3"
+                        tools:text="@string/live_pay2_month" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        style="@style/font_dark16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/tv_king3"
+                        android:layout_below="@+id/tv_king3"
+                        android:layout_marginTop="@dimen/p20"
+                        android:text="@string/live_pay3_tips" />
+
+
+                    <ImageView
+                        android:id="@+id/iv_open_level3"
+                        android:layout_width="@dimen/p100"
+                        android:layout_height="@dimen/p60"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/icon_recharge_default" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_open_daojishi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/p30"
+                    android:textColor="@color/red"
+                    android:visibility="invisible"
+                    tools:text="15秒后退出房间" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/re_op_levelr3"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/p400"
+                android:background="@drawable/shap_pink_gradient"
+                android:gravity="center_vertical"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/iv_op_sibo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/icon_op_tex"
+                    android:scaleType="centerCrop" />
+
+                <!--android:background="@drawable/icon_open_si"-->
+                <LinearLayout
+                    android:id="@+id/re_op_level3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_op_sibo"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/p60"
+                    android:background="@drawable/shap_pink3"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/p20">
+
+                    <TextView
+                        style="@style/font_white16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/p10"
+                        android:text="@string/live_op_go" />
+
+                    <TextView
+                        android:id="@+id/tv_op_money"
+                        style="@style/font_white12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/p20"
+                        android:layout_marginRight="@dimen/p10"
+                        tools:text="@string/gold_Pay1_y" />
+
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/op_close2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+</LinearLayout>

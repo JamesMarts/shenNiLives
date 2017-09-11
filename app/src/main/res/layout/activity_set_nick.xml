@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.shenni.lives.activity.SetNickActivity">
+
+
+    <include
+        android:id="@+id/tab_titles"
+        layout="@layout/title_bar" />
+
+    <EditText
+        android:id="@+id/et_setnick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/p12"
+        android:layout_marginRight="@dimen/p12"
+        android:layout_marginTop="@dimen/p28"
+        android:background="@drawable/shap_stroke_pink"
+        android:hint="请输入昵称"
+        android:padding="@dimen/p10"
+        android:textColorHint="@color/font_grey" />
+
+
+</LinearLayout>

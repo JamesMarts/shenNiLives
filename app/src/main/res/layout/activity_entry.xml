@@ -1,0 +1,221 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.shenni.lives.fragment.HomeFragment">
+    <!--android:background="@drawable/shap_stroke_pink"-->
+
+    <include
+        android:id="@+id/tab_titles"
+        layout="@layout/title_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tab_titles"
+        android:scrollbars="none"
+        android:padding="@dimen/p26">
+
+
+        <LinearLayout
+            android:id="@+id/ll_aj_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/p375"
+                android:background="@drawable/shap_grey"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_ac_up_head"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/shap_grey" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/p375"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/anjoin_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="请上传本人正面照片\n上传图片最大不超过8M" />
+
+                    <Button
+                        android:id="@+id/iv_update"
+                        style="@style/font_white16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/p80"
+                        android:layout_marginTop="@dimen/p40"
+                        android:background="@drawable/shap_pink"
+                        android:text="@string/entry_join" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <TextView
+                style="@style/font_dark14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/p26"
+                android:text="您的QQ号|微信号：" />
+
+            <EditText
+                android:id="@+id/ed_anj_qq"
+                style="@style/font_dark12"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/p66"
+                android:layout_marginTop="@dimen/p26"
+                android:background="@drawable/shap_stroke_pink"
+                android:gravity="center_vertical"
+                android:maxLength="20"
+                android:paddingLeft="@dimen/p16"
+                android:paddingRight="@dimen/p16"
+                android:singleLine="true"
+                tools:text="1313" />
+
+
+            <TextView
+                style="@style/font_dark14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/p26"
+                android:text="手机号码：" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/p68"
+                android:layout_marginTop="@dimen/p26"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/font_dark12"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/p66"
+                    android:layout_weight="1"
+                    android:background="@drawable/shap_stroke_pink"
+                    android:drawableRight="@drawable/icon_drop_down"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/p16"
+                    android:paddingRight="@dimen/p16"
+                    android:text="中国大陆" />
+
+                <EditText
+                    android:id="@+id/ed_anj_phone"
+                    style="@style/font_dark12"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/p66"
+                    android:layout_marginLeft="@dimen/p30"
+                    android:layout_weight="2"
+                    android:background="@drawable/shap_stroke_pink"
+                    android:gravity="center_vertical"
+                    android:inputType="number"
+                    android:paddingLeft="@dimen/p16"
+                    android:paddingRight="@dimen/p16"
+                    android:singleLine="true"
+                    tools:text="13135" />
+            </LinearLayout>
+
+
+            <TextView
+                style="@style/font_dark14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/p26"
+                android:text="有无直播经验？经验时长多久？" />
+
+            <EditText
+                android:id="@+id/ed_anj_jingyan"
+                style="@style/font_dark12"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/p66"
+                android:layout_marginTop="@dimen/p26"
+                android:background="@drawable/shap_stroke_pink"
+                android:gravity="center_vertical"
+                android:maxLength="100"
+                android:paddingLeft="@dimen/p16"
+                android:paddingRight="@dimen/p16"
+                android:singleLine="true"
+                tools:text="153天" />
+
+
+            <TextView
+                style="@style/font_dark14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/p26"
+                android:text="每天可以固定的直播时间段是？" />
+
+            <EditText
+                android:id="@+id/ed_anj_shiduan"
+                style="@style/font_dark12"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/p66"
+                android:layout_marginTop="@dimen/p26"
+                android:background="@drawable/shap_stroke_pink"
+                android:gravity="center_vertical"
+                android:maxLength="100"
+                android:paddingLeft="@dimen/p16"
+                android:paddingRight="@dimen/p16"
+                android:singleLine="true"
+                tools:text="每天中午2点" />
+
+            <Button
+                android:id="@+id/btn_aj_join"
+                android:layout_width="@dimen/p480"
+                android:layout_height="@dimen/p88"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/p90"
+                android:background="@drawable/icon_apply" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <RelativeLayout
+        android:id="@+id/ll_aj_next"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tab_titles"
+        android:background="@color/white"
+        android:visibility="gone"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/aj_icr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/p120"
+            android:background="@drawable/icon_right" />
+
+
+        <Button
+            android:id="@+id/ben_aj_close"
+            style="@style/font_dark16"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/p80"
+            android:layout_marginLeft="@dimen/p90"
+            android:layout_marginRight="@dimen/p90"
+            android:layout_marginBottom="@dimen/p70"
+            android:layout_alignBottom ="@+id/aj_icr"
+            android:background="@null" />
+
+        <!--android:background="@drawable/shap_stroke_pink"-->
+        <!--android:text="提交成功,审核中"-->
+    </RelativeLayout>
+</RelativeLayout>
